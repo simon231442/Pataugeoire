@@ -1,0 +1,131 @@
+Piscine Discovery
+Cellule 0-1
+Staff 42 piscine@42.fr
+
+Résumé: Dans cette cellule, nous voyons comment utiliser le shell.
+
+Table des matières
+I
+
+Un mot sur cette Piscine Discovery
+
+2
+
+II
+
+Introduction
+
+3
+
+III
+
+Consignes générales
+
+4
+
+IV
+
+Exercice 01 : Z
+
+5
+
+V
+
+Rendu et peer-évaluation
+
+6
+
+1
+
+Chapitre I
+Un mot sur cette Piscine Discovery
+Bienvenue !
+Vous allez commencer la première cellule de cette piscine de découverte de la programmation informatique. Nous voulons à la fois vous faire voir ce qu’est le code qui compose
+les logiciels que vous utilisez tous les jours, et à la fois expérimenter le peer-learning,
+modèle pédagogique de 42.
+La programmation fait appel à de la logique (et non des maths). Elle vous fournit des
+briques élémentaires, que vous assemblez comme vous le souhaitez. Il n’y a jamais LA
+solution à un problème. Il y aura votre solution, il y aura celles de chacun de vos voisins.
+Lent ou rapide, moche ou beau, si ca fait le boulot c’est tout ce qu’il faut ! Cet assemblage de briques va constituer une suite d’ordres (calcul, affichage, ...) que l’ordinateur
+va effectuer, dans l’ordre que vous aurez choisi.
+Plutôt que de vous donner un cours avec une seule solution pour chacun des problèmes, et qui sera probablement dépassée dans quelques années, nous avons choisi de
+vous mettre en situation de peer-learning. Vous allez chercher les éléments qui pourraient
+vous servir pour votre challenge, trier ceux qui sont effectivement intéressants en les testant et manipulant, et créer votre propre programme. Pour cela, discutez avec les autres,
+échangez vos points de vue, trouvez ensemble de nouvelles idées, et enfin testez par vous
+même pour vous convaincre que ça marche.
+La peer-évaluation est un moment clef pour découvrir d’autres façons de faire, de
+même que des cas particuliers auxquels vous n’avez pas pensé et qui pourraient mettre à
+mal votre programme (pensez à votre degré d’énervement face à un logiciel qui plante).
+Tels des clients différents qui ne font pas attention aux mêmes choses, chaque évaluateur
+sera différent du précédent. Et qui sait, vous aurez peut-être fait une nouvelle connaissance pour des collaborations ultérieures.
+A la fin de cette piscine, vous n’aurez pas fait les mêmes choses que les autres participant(e)s, vous n’aurez pas validé les mêmes projets, vous aurez choisi de faire tel challenge
+plutôt qu’un autre.... et c’est normal ! C’est une expérience à la fois collective, et à la fois
+personnelle. Tout le monde sera gagnant de ce qu’il ou elle aura vécu durant cette période.
+Bon courage à tous et à toutes, on espère que cette découverte vous plaira.
+
+2
+
+Chapitre II
+Introduction
+Ce que cette cellule va vous faire voir :
+• Découverte du terminal et de la ligne de commande.
+• Premières commandes pour naviguer, modifier et créer dans le système de fichier.
+• Premièrs programmes pour automatiser certaines tâches dans votre terminal.
+
+3
+
+Chapitre III
+Consignes générales
+Sauf contradiction explicite, les consignes suivantes seront valables pour tous les jours
+de cette Piscine.
+• Seul ce sujet sert de référence : ne vous fiez pas aux bruits de couloir.
+• Ce sujet peut être mis à jour jusqu’à une heure avant le délai de rendu.
+• Les exercices sont très précisément ordonnés du plus simple au plus complexe.
+En aucun cas nous ne porterons attention ni ne prendrons en compte un exercice
+complexe si un exercice plus simple n’est pas parfaitement réussi.
+• Attention aux droits de vos fichiers et de vos répertoires.
+• Vos exercices seront évalués par vos camarades de Piscine.
+• Le shell /bin/bash sera le shell de référence pour les exercices.
+• Vous ne devez laisser aucun autre fichier que ceux explicitement specifiés par les
+énoncés des exercices dans votre répertoire lors de la peer-évaluation.
+• Vous avez une question ? Demandez à votre voisin de droite. Sinon, essayez avec
+votre voisin de gauche.
+• Toutes les réponses à vos questions techniques se trouvent dans les man ou sur
+Internet.
+• Pensez à discuter sur le forum Piscine de votre Intra et sur Slack !
+• Lisez attentivement les exemples car ils peuvent vous permettre d’identifier un
+travail à réaliser qui n’est pas précisé dans le sujet à première vue.
+• Réfléchissez. Par pitié, par Thor, par Odin !
+
+4
+
+Chapitre IV
+Exercice 01 : Z
+Exercice : 01
+Les vrais savent afficher un Z
+Dossier de rendu : ex01/
+Fichiers à rendre : z
+Fonctions Autorisées : Aucune
+
+• Créez un fichier z qui, lorsque l’on fait un cat dessus, affiche "Z" suivi d’un retour
+à la ligne.
+?>cat z
+Z
+?>
+
+5
+
+Chapitre V
+Rendu et peer-évaluation
+• Créez un dossier discovery_piscine à la racine de votre home, et déplacez vous
+dedans.
+• Créez un nouveau dossier cell00 et déplacez vous dedans.
+• A partir de maintenant, tous les exercices devront être dans le bon dossier de
+rendu. L’exercice 00 dans le dossier ex00, l’exercice 01 dans le dossier ex01, etc...
+vous avez compris la logique.
+
+Attention, durant votre soutenance tout ce qui n’est pas present dans
+le dossier du jour ne sera vérifié.
+
+6
+

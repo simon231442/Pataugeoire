@@ -1,0 +1,129 @@
+Piscine Discovery
+Rush
+Staff 42 piscine@42.fr
+
+Résumé: Ce rush est là pour vous faire mettre en place un mini site vitrine composé de
+3 pages, et vous faire pratiquer toutes les bases vues durant cette semaine.
+
+Table des matières
+I
+
+Préambule
+
+2
+
+II
+
+Consignes générales
+
+3
+
+III
+
+Partie obligatoire
+
+4
+
+IV
+
+Rendu et peer-évaluation
+
+6
+
+1
+
+Chapitre I
+Préambule
+Gollum : Qu’est-ce qu’il fait ? Stupide Hobbit joufflu, ça les abime.
+Sam : Abimer quoi ? Ils n’ont presque pas de viande. Ce qu’il nous faudrait, c’est des
+bonnes patates.
+Gollum : C’est quoi des patates, mon précieux ? Qu’est-ce que c’est ?
+Sam : Pommes de terre, idiot. En bouillie, en purée, en rondelles dans un ragoût. De
+bonnes grosses frites dans l’huile pour accompagner du poisson frit. Même vous
+n’y résisteriez pas.
+Gollum : Oh si, nous y résisterions. Gâcher ainsi du bon poisson. Nous, nous le
+préférons cru et frétillant. Gardez vos vilaines frites.
+Sam : Vous êtes désespérant.
+
+2
+
+Chapitre II
+Consignes générales
+Sauf contradiction explicite, les consignes suivantes seront valables pour tous les jours
+de cette Piscine.
+• Seul ce sujet sert de référence : ne vous fiez pas aux bruits de couloir.
+• Ce sujet peut être mis à jour jusqu’à une heure avant le délai de rendu.
+• Les exercices sont très précisément ordonnés du plus simple au plus complexe.
+En aucun cas nous ne porterons attention ni ne prendrons en compte un exercice
+complexe si un exercice plus simple n’est pas parfaitement réussi.
+• Attention aux droits de vos fichiers et de vos répertoires.
+• Vos exercices seront évalués par vos camarades de Piscine.
+• Le shell /bin/bash sera le shell de référence pour les exercices.
+• Vous ne devez laisser aucun autre fichier que ceux explicitement specifiés par les
+énoncés des exercices dans votre répertoire lors de la peer-évaluation.
+• Vous avez une question ? Demandez à votre voisin de droite. Sinon, essayez avec
+votre voisin de gauche.
+• Toutes les réponses à vos questions techniques se trouvent dans les man ou sur
+Internet.
+• Pensez à discuter sur le forum Piscine de votre Intra et sur Slack !
+• Lisez attentivement les exemples car ils peuvent vous permettre d’identifier un
+travail à réaliser qui n’est pas précisé dans le sujet à première vue.
+• Réfléchissez. Par pitié, par Thor, par Odin !
+
+3
+
+Chapitre III
+Partie obligatoire
+Suite à votre première semaine de formation au web, vous allez devoir, dans cette
+dernière journée, mettre en place un mini site one-page avec vos CVs. Pour ceux qui ne
+savent pas ce qu’est un site one-page, consultez la liste des sites présente ici.
+Bien sûr, nous ne vous demanderons pas que celui-ci soit aussi complet que ces
+exemples.
+Votre première page sera simplement un somaire pour aller vers les deux CVs avec
+deux liens.
+Cette première page doit être reponsive et jolie ! L’utilisation de framework css comme
+bootstrap est fortement conseillé.
+Une page de cv doit avoir à chaque fois au minimum :
+• Une barre de navigation : Vous devez implémenter votre propre barre de navigation (avec plusieurs liens pour pouvoir se déplacer sur votre page facilement).
+Cette barre doit pointer vers 3 parties de votre CV au minimum. Enfin cette barre
+doit rester fixe lors de votre navigation sur la page.
+• Trois parties : Vous devez implémenter 3 parties dans votre CV.
+• Une première partie : qui va afficher le contenu simple avec une photo, un nom,
+un titre de poste de travaille.
+• Une seconde partie : qui va afficher les experiences professionel ainsi que les
+compétences de la personne.
+• Une dernière partie : avec des liens pour contacter la personne.
+Vous êtes libre de l’agencement du contenu. On vous conseil fortement d’utiliser des
+templates bootstrap pour vous aider.
+
+4
+
+Piscine Discovery
+
+Rush
+
+Voici un exemple de barre de navigation :
+
+Voici un exemple de page d’aceuil :
+
+5
+
+Chapitre IV
+Rendu et peer-évaluation
+• Dans votre dossier discovery_piscine à la racine de votre home créez un nouveau
+dossier rush et déplacez vous dedans.
+• A partir de maintenant, tous les exercices devront être dans le bon dossier de
+rendu.
+• Pour cette journée votre dossier de rendu sera le dossier rush.
+• Vous devez rendre à la racine de votre dossier de rendu un fichier auteur contenant
+vos logins, chacun sur une ligne, et suivis d’un ’\n’ :
+$>cat -e auteur
+xlogin$
+ylogin$
+$>
+
+Attention, durant votre soutenance tout ce qui n’est pas present dans
+le dossier du jour ne sera vérifié.
+
+6
+
