@@ -1,0 +1,19 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(function() {
+
+  var colors = ['red', 'blue', 'green', 'grey'],
+    color;
+
+  $('button.b').click(function() {
+    var randColor;
+    do {
+      randColor = colors[Math.floor(Math.random() * colors.length)];
+    } while (color == randColor);
+    $('body').css('background-color', randColor);
+    color = randColor;
+  });
+});
+</script>
+
+<button class="b">Click me !</button>
