@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+	background-color: lightblue;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid black;
+	text-align: center;
+	font-size: 30px;
+}
+
+.case-gauche {
+	background-color: lightgreen;
+}
+
+.case-droit {
+	background-color: #32a852;
+}
+	
