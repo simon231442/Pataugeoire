@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	font-family: Gill, Sans;
+	text-align: center;
+}
+
+.image-fond-1, .image-fond-2 {
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: white;/*pourquoi est-ce*/
+	padding-top: 40vh;
+}
+
+.image-fond-1 {
+	background-image: url('rick-morty-comming.jpeg');
+}
+
+.image-fond-2 {
+	background-image: url('rick-morty-trolling.jpeg');
+}
+
+.bloc-noir {
+    height: 50vh; /* Il prend la moitié de l'écran */
+    background-color: black;
+    color: white;
+    padding-top: 10vh;
+}

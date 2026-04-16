@@ -1,8 +1,21 @@
 body {
-	background-color: #e2d810;
+	background-color: #e2d810;/*jaune*/
 	font-family: Helvetica, Sans-Serif;
 	text-align: center;
 	padding: 50px;
 }
 
 .menu {
+	background-color: #d9138a;/*magenta*/
+	border: 2px solid;
+	border-radius: 15px;
+	padding: 30px;
+	box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+
+.prix {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
